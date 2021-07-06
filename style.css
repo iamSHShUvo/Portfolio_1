@@ -8,13 +8,13 @@ h1{
 .name-color{
     color: orangered;
 }
-h3{
+.about{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
     margin-bottom: 2%;
     
 }
-u{
+.underline{
     text-decoration: none;
     border:orangered ;
     background-image: linear-gradient(orangered,red);
@@ -24,6 +24,7 @@ u{
 }
 section{
     display: flex;
+    margin-bottom: 90px;
 }
 .half-width{
     width: 50%;
@@ -46,7 +47,11 @@ section{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
 }
-p{
+.parafont{
     font-size: 17px;
 }
-
+.dreambig{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
